@@ -1,4 +1,45 @@
 body {
-  background: #333; }
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.bg_black {
+  background: black; }
+
+.menu {
+  list-style-type: none;
+  color: #fff;
+  padding: 48px 0 0 0;
+  margin: 0;
+  display: inline-flex;
+  float: right; }
+
+.menu li {
+  padding-left: 96px; }
+
+.menu li a {
+  color: #fff;
+  text-transform: uppercase; }
+
+.tagline {
+  color: #fff;
+  margin-top: 48px; }
+
+.logo {
+  width: 100%; }
+
+.horiz_border {
+  margin-top: 38px;
+  box-sizing: border-box;
+  border-top: 9px #4caf50 solid; }
+
+.team_name {
+  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: bold; }
+
+.tagline_text {
+  font-size: 48px;
+  font-weight: 300; }
 
 /*# sourceMappingURL=style.css.map */

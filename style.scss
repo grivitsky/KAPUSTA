@@ -1,6 +1,67 @@
-$primary-color: #333;
-
+$green: #4caf50;
+$white: #fff;
+$fonts: Roboto, sans-serif;
 body
 {
-    background: $primary-color
+    font-family: $fonts;
+    margin: 0;
+    padding: 0;
+}
+
+
+.bg_black
+{
+    background: black;
+}
+
+.menu
+{
+    list-style-type: none;
+    color: $white;
+    padding: 48px 0 0 0;
+    margin: 0;
+    display: inline-flex;
+    float: right;
+}
+
+.menu li
+{
+    padding-left: 96px;
+}
+
+.menu li a
+{
+    color: $white;
+    text-transform: uppercase;
+}
+
+.tagline
+{
+    color: $white;
+    margin-top: 48px;
+}
+
+.logo
+{
+    width: 100%;
+}
+
+.horiz_border
+{
+    margin-top: 38px;
+    box-sizing: border-box;
+    border-top: 9px $green solid;
+}
+
+.team_name
+{
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.tagline_text
+{
+    font-size: 48px;
+    font-weight: 300;
 }
