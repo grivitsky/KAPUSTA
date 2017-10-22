@@ -6,6 +6,9 @@ body {
 .bg_black {
   background: black; }
 
+.bg_green {
+  background: #4caf50; }
+
 .menu {
   list-style-type: none;
   color: #fff;
@@ -53,6 +56,13 @@ body {
   color: #4caf50;
   text-decoration: underline; }
 
+.advantage {
+  float: left;
+  margin-top: 64px; }
+
+.advantage_img {
+  height: 220px; }
+
 .number {
   color: #4caf50;
   font-weight: bold;
@@ -61,6 +71,18 @@ body {
 .description {
   border-left: 8px #4caf50 solid;
   font-weight: 400;
-  font-size: 24px; }
+  font-size: 18px; }
+
+.cathegory {
+  transform: rotate(90deg);
+  font-weight: bold;
+  font-size: 18px; }
+
+.text_green {
+  color: #4caf50; }
+
+.form {
+  margin-top: 180px;
+  padding: 48px; }
 
 /*# sourceMappingURL=style.css.map */
