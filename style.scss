@@ -1,6 +1,7 @@
 $green: #4caf50;
 $white: #fff;
 $fonts: Roboto, sans-serif;
+
 body
 {
     font-family: $fonts;
@@ -64,4 +65,33 @@ body
 {
     font-size: 48px;
     font-weight: 300;
+}
+
+.header
+{
+    margin-top: 96px;
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.highlight
+{
+    text-transform: uppercase;
+    color: $green;
+    text-decoration: underline;
+}
+
+.number
+{
+    color: $green;
+    font-weight: bold;
+    font-size: 108px;
+}
+
+.description
+{
+    border-left: 8px $green solid;
+    font-weight: 400;
+    font-size: 24px;
 }

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 68.5 68.5" style="enable-background:new 0 0 68.5 68.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4CAF50;}
+	.st1{clip-path:url(#XMLID_98_);fill:#4CAF50;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st2{clip-path:url(#XMLID_99_);fill:#4CAF50;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st3{clip-path:url(#XMLID_100_);fill:#4CAF50;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st4{display:none;}
+	.st5{display:inline;}
+	.st6{fill:#FFFFFF;}
+	.st7{clip-path:url(#XMLID_101_);fill:#FFFFFF;stroke:#4CAF50;stroke-width:4;stroke-miterlimit:10;}
+	.st8{clip-path:url(#XMLID_102_);fill:#FFFFFF;stroke:#4CAF50;stroke-width:4;stroke-miterlimit:10;}
+	.st9{clip-path:url(#XMLID_103_);fill:#FFFFFF;stroke:#4CAF50;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<g id="Слой_1">
+	<g id="XMLID_1_">
+		<circle id="XMLID_6_" class="st0" cx="34.3" cy="34.3" r="34.3"/>
+		<g id="XMLID_20_">
+			<defs>
+				<circle id="XMLID_3_" cx="34.3" cy="34.3" r="34.3"/>
+			</defs>
+			<clipPath id="XMLID_98_">
+				<use xlink:href="#XMLID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<circle id="XMLID_5_" class="st1" cx="1.1" cy="-37.3" r="59.8"/>
+		</g>
+		<g id="XMLID_22_">
+			<defs>
+				<circle id="XMLID_21_" cx="34.3" cy="34.3" r="34.3"/>
+			</defs>
+			<clipPath id="XMLID_99_">
+				<use xlink:href="#XMLID_21_"  style="overflow:visible;"/>
+			</clipPath>
+			<circle id="XMLID_4_" class="st2" cx="-10" cy="63.3" r="54.4"/>
+		</g>
+		<g id="XMLID_24_">
+			<defs>
+				<circle id="XMLID_23_" cx="34.3" cy="34.3" r="34.3"/>
+			</defs>
+			<clipPath id="XMLID_100_">
+				<use xlink:href="#XMLID_23_"  style="overflow:visible;"/>
+			</clipPath>
+			<circle id="XMLID_7_" class="st3" cx="50" cy="104.4" r="75.5"/>
+		</g>
+	</g>
+</g>
+<g id="Слой_2" class="st4">
+	<g id="XMLID_2_" class="st5">
+		<circle id="XMLID_31_" class="st6" cx="34.3" cy="34.3" r="34.3"/>
+		<g id="XMLID_25_">
+			<defs>
+				<circle id="XMLID_26_" cx="34.3" cy="34.3" r="34.3"/>
+			</defs>
+			<clipPath id="XMLID_101_">
+				<use xlink:href="#XMLID_26_"  style="overflow:visible;"/>
+			</clipPath>
+			<circle id="XMLID_27_" class="st7" cx="1.1" cy="-37.3" r="59.8"/>
+		</g>
+		<g id="XMLID_14_">
+			<defs>
+				<circle id="XMLID_15_" cx="34.3" cy="34.3" r="34.3"/>
+			</defs>
+			<clipPath id="XMLID_102_">
+				<use xlink:href="#XMLID_15_"  style="overflow:visible;"/>
+			</clipPath>
+			<circle id="XMLID_16_" class="st8" cx="-10" cy="63.3" r="54.4"/>
+		</g>
+		<g id="XMLID_8_">
+			<defs>
+				<circle id="XMLID_9_" cx="34.3" cy="34.3" r="34.3"/>
+			</defs>
+			<clipPath id="XMLID_103_">
+				<use xlink:href="#XMLID_9_"  style="overflow:visible;"/>
+			</clipPath>
+			<circle id="XMLID_10_" class="st9" cx="50" cy="104.4" r="75.5"/>
+		</g>
+	</g>
+</g>
+</svg>

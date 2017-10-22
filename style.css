@@ -42,4 +42,25 @@ body {
   font-size: 48px;
   font-weight: 300; }
 
+.header {
+  margin-top: 96px;
+  color: black;
+  font-size: 48px;
+  font-weight: bold; }
+
+.highlight {
+  text-transform: uppercase;
+  color: #4caf50;
+  text-decoration: underline; }
+
+.number {
+  color: #4caf50;
+  font-weight: bold;
+  font-size: 108px; }
+
+.description {
+  border-left: 8px #4caf50 solid;
+  font-weight: 400;
+  font-size: 24px; }
+
 /*# sourceMappingURL=style.css.map */
