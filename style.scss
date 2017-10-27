@@ -10,6 +10,7 @@ body
 }
 
 
+
 .bg_black
 {
     background: black;
@@ -245,8 +246,43 @@ body
     }
 }
 
-.map{
-    text-align: right;
-    width: 50%;
-  
+
+.contacts
+{
+    padding-top: 100px;
 }
+
+.copyright
+{
+    color: $white;
+    font-size: 16px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.white_header
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: $white;
+}
+
+.white_subheader
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: $white;
+}
+
+.footer_info
+{
+    color: $white;
+    margin-top: 16px;
+}
+
+.info
+{
+    margin-top: 100px;
+}
+
+

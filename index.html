@@ -49,8 +49,13 @@
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        
-        
+          <style type="text/css">
+            /* Set a size for our map container, the Google Map will take up 100% of this container */
+            #map {
+                width: 500px;
+                height: 500px;
+            }
+        </style>   
     </head>
 
     <body>    
@@ -167,19 +172,50 @@
         </div>
 
     </section>
-        <section class="bg_green form">
-            <div class="containr">
-                <div class="row">
-                 <div class="contact_info col-xs-12 col-md-6 col-lg-6 col-sm-12">
-                     .zag_contact
-                 </div>
-                  <div class="map col-xs-12 col-md-6 col-lg-6 col-sm-12">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.393308184954!2d27.562326215859002!3d53.889212980096374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd08105be0f%3A0x7f699979fe8a4f7!2z0YPQuy4g0JHQtdC70L7RgNGD0YHRgdC60LDRjyAyMSwg0JzQuNC90YHQuiwg0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sru!4v1508776160519" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+       
+        <footer class="bg_green">
+          <div class="container">
+           <div class="row">
+               <div class="col-lg-6 contacts">
+                   <div class="row">
+                       <div class="col-lg-12 white_header">Контакты</div>
                    </div>
-                </div>
-            </div>
-        </section>
+                   <div class="row info">
+                       <div class="col-lg-4">
+                           <div class="white_subheader">Офис</div>
+                           <div class="footer_info">
+                               Минск, ул. Белорусская 21, +375 (29) 322-32-12
+                           </div>
+                       </div>
+                       <div class="col-lg-4">
+                           <div class="white_subheader">Email</div>
+                           <a href="mailto:hello@kapusta.studio">
+                              <div class="footer_info">
+                               hello@kapusta.studio
+                               </div>
+                           </a>
+                       </div>
+                       <div class="col-lg-4">
+                           <div class="white_subheader">Skype</div>
+                           <div class="footer_info">
+                               KapustaStudio
+                           </div>
+                       </div>
+                   </div>
+                   <div class="row">
+                      <div class="col-lg-12 copyright">Kapusta – Креативная веб-студия © 2017. Все права защищены.</div>
+                   </div>
+               </div>
+               <div class="col-lg-6">
+                   <div id="map"></div>
+               </div>
+           </div>   
+           </div>
+        </footer>
+    </body>
+       
         <!-- Scripts -->
+   
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -194,6 +230,43 @@
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
             ga('create', 'UA-XXXXXXXX-X', 'auto');
             ga('send', 'pageview');
-        </script>
-    </body>
+        </script> 
+        
+          
+             <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+        
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 14,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(53.889213, 27.5623262), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#4caf50"},{"visibility":"on"}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(53.889213, 27.5623262),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>  
 </html>

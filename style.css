@@ -177,8 +177,30 @@ body {
     padding-bottom: 10px;
     font-style: italic; }
 
-.map {
-  text-align: right;
-  width: 50%; }
+.contacts {
+  padding-top: 100px; }
+
+.copyright {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.white_header {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff; }
+
+.white_subheader {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; }
+
+.footer_info {
+  color: #fff;
+  margin-top: 16px; }
+
+.info {
+  margin-top: 100px; }
 
 /*# sourceMappingURL=style.css.map */
