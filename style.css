@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -83,7 +84,8 @@ body {
   color: #4caf50; }
 
 .form {
-  width: 100%; }
+  width: 100%;
+  margin-top: 110px; }
 
 .clientsty {
   margin-top: 110px;
@@ -202,5 +204,143 @@ body {
 
 .info {
   margin-top: 100px; }
+
+/* C╨╜╨░╤З╨░╨╗╨░ ╨╛╨▒╨╛╨╖╨╜╨░╤З╨░╨╡╨╝ ╤Б╤В╨╕╨╗╨╕ ╨┤╨╗╤П IE8 ╨╕ ╨▒╨╛╨╗╨╡╨╡ ╤Б╤В╨░╤А╤Л╤Е ╨▓╨╡╤А╤Б╨╕╨╣
+╤В.╨╡. ╨╖╨┤╨╡╤Б╤М ╨╝╤Л ╨╜╨╡╨╝╨╜╨╛╨│╨╛ ╨╛╨▒╨╗╨░╨│╨╛╤А╨░╨╢╨╕╨▓╨░╨╡╨╝ ╤Б╤В╨░╨╜╨┤╨░╤А╤В╨╜╤Л╨╣ ╤З╨╡╨║╨▒╨╛╨║╤Б. */
+.checkbox {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px; }
+
+/* ╨н╤В╨╛ ╨┤╨╗╤П ╨▓╤Б╨╡╤Е ╨▒╤А╨░╤Г╨╖╨╡╤А╨╛╨▓, ╨║╤А╨╛╨╝╨╡ ╤Б╨╛╨▓╤Б╨╡╨╝ ╤Б╤В╨░╤А╤Л╤Е, ╨║╨╛╤В╨╛╤А╤Л╨╡ ╨╜╨╡ ╨┐╨╛╨┤╨┤╨╡╤А╨╢╨╕╨▓╨░╤О╤В
+╤Б╨╡╨╗╨╡╨║╤В╨╛╤А╤Л ╤Б ╨┐╨╗╤О╤Б╨╛╨╝. ╨Я╨╛╨║╨░╨╖╤Л╨▓╨░╨╡╨╝, ╤З╤В╨╛ label ╨║╨╗╨╕╨║╨░╨▒╨╡╨╗╨╡╨╜.┬а*/
+.checkbox + label {
+  cursor: pointer; }
+
+/* ╨Ф╨░╨╗╨╡╨╡ ╨╕╨┤╨╡╤В ╨╛╤Д╨╛╤А╨╝╨╗╨╡╨╜╨╕╨╡ ╤З╨╡╨║╨▒╨╛╨║╤Б╨░ ╨▓ ╤Б╨╛╨▓╤А╨╡╨╝╨╡╨╜╨╜╤Л╤Е ╨▒╤А╨░╤Г╨╖╨╡╤А╨░╤Е, ╨░ ╤В╨░╨║╨╢╨╡ IE9 ╨╕ ╨▓╤Л╤И╨╡.
+╨С╨╗╨░╨│╨╛╨┤╨░╤А╤П ╤В╨╛╨╝╤Г, ╤З╤В╨╛ ╤Б╤В╨░╤А╤Л╨╡ ╨▒╤А╨░╤Г╨╖╨╡╤А╤Л ╨╜╨╡ ╨┐╨╛╨┤╨┤╨╡╤А╨╢╨╕╨▓╨░╤О╤В ╤Б╨╡╨╗╨╡╨║╤В╨╛╤А╤Л :not ╨╕ :checked,
+╨▓ ╨╜╨╕╤Е ╨▓╤Б╨╡ ╨╜╨╕╨╢╨╡╤Б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╡ ╤Б╤В╨╕╨╗╨╕ ╨╜╨╡ ╤Б╤А╨░╨▒╨╛╤В╨░╤О╤В. */
+/* ╨Я╤А╤П╤З╨╡╨╝ ╨╛╤А╨╕╨│╨╕╨╜╨░╨╗╤М╨╜╤Л╨╣ ╤З╨╡╨║╨▒╨╛╨║╤Б. */
+.checkbox:not(checked) {
+  position: absolute;
+  opacity: 0; }
+
+.checkbox:not(checked) + label {
+  position: relative;
+  /* ╨▒╤Г╨┤╨╡╨╝ ╨┐╨╛╨╖╨╕╤Ж╨╕╨╛╨╜╨╕╤А╨╛╨▓╨░╤В╤М ╨┐╤Б╨╡╨▓╨┤╨╛╤З╨╡╨║╨▒╨╛╨║╤Б ╨╛╤В╨╜╨╛╤Б╨╕╤В╨╡╨╗╤М╨╜╨╛ label┬а*/
+  padding: 0 0 0 60px;
+  /* ╨╛╤Б╤В╨░╨▓╨╗╤П╨╡╨╝ ╤Б╨╗╨╡╨▓╨░ ╨╛╤В label┬а╨╝╨╡╤Б╤В╨╛ ╨┐╨╛╨┤ ╨┐╤Б╨╡╨▓╨┤╨╛╤З╨╡╨║╨▒╨╛╨║╤Б┬а*/ }
+
+/* ╨Ю╤Д╨╛╤А╨╝╨╗╨╡╨╜╨╕╨╡ ╨┐╨╡╤А╨▓╨╛╨╣ ╤З╨░╤Б╤В╨╕ ╤З╨╡╨║╨▒╨╛╨║╤Б╨░ ╨▓ ╨▓╤Л╨║╨╗╤О╤З╨╡╨╜╨╜╨╛╨╝ ╤Б╨╛╤Б╤В╨╛╤П╨╜╨╕╨╕ (╤Д╨╛╨╜). */
+.checkbox:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2); }
+
+/* ╨Ю╤Д╨╛╤А╨╝╨╗╨╡╨╜╨╕╨╡ ╨▓╤В╨╛╤А╨╛╨╣ ╤З╨░╤Б╤В╨╕ ╤З╨╡╨║╨▒╨╛╨║╤Б╨░ ╨▓ ╨▓╤Л╨║╨╗╤О╤З╨╡╨╜╨╜╨╛╨╝ ╤Б╨╛╤Б╤В╨╛╤П╨╜╨╕╨╕ (╨┐╨╡╤А╨╡╨║╨╗╤О╤З╨░╤В╨╡╨╗╤М). */
+.checkbox:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all .2s;
+  /* ╨░╨╜╨╕╨╝╨░╤Ж╨╕╤П, ╤З╤В╨╛╨▒╤Л ╤З╨╡╨║╨▒╨╛╨║╤Б ╨┐╨╡╤А╨╡╨║╨╗╤О╤З╨░╨╗╤Б╤П ╨┐╨╗╨░╨▓╨╜╨╛┬а*/ }
+
+/* ╨Ь╨╡╨╜╤П╨╡╨╝ ╤Д╨╛╨╜ ╤З╨╡╨║╨▒╨╛╨║╤Б╨░, ╨║╨╛╨│╨┤╨░ ╨╛╨╜ ╨▓╨║╨╗╤О╤З╨╡╨╜. */
+.checkbox:checked + label:before {
+  background: #4caf50; }
+
+/* ╨б╨┤╨▓╨╕╨│╨░╨╡╨╝ ╨┐╨╡╤А╨╡╨║╨╗╤О╤З╨░╤В╨╡╨╗╤М ╤З╨╡╨║╨▒╨╛╨║╤Б╨░, ╨║╨╛╨│╨┤╨░ ╨╛╨╜ ╨▓╨║╨╗╤О╤З╨╡╨╜. */
+.checkbox:checked + label:after {
+  left: 26px; }
+
+/* ╨Я╨╛╨║╨░╨╖╤Л╨▓╨░╨╡╨╝ ╨┐╨╛╨╗╤Г╤З╨╡╨╜╨╕╨╡ ╤Д╨╛╨║╤Г╤Б╨░.┬а*/
+.radio {
+  vertical-align: top;
+  width: 17px;
+  height: 17px;
+  margin: 0 3px 0 0; }
+
+.radio + label {
+  cursor: pointer; }
+
+.radio:not(checked) {
+  position: absolute;
+  opacity: 0; }
+
+.radio:not(checked) + label {
+  position: relative;
+  padding: 0 0 0 35px; }
+
+.radio:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #CDD1DA;
+  border-radius: 50%;
+  background: #FFF; }
+
+.radio:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #9FD468;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all .2s; }
+
+.radio:checked + label:after {
+  opacity: 1; }
+
+.radio:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.5); }
+
+.h2_form {
+  text-align: center;
+  padding-top: 30px; }
+  .h2_form h2 {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 18pt;
+    font-weight: bold; }
+
+.var_uslugi h3 {
+  font-family: Roboto, sans-serif;
+  color: white;
+  font-size: 15pt;
+  font-weight: 400;
+  display: inline-block;
+  margin-top: 0; }
+.var_uslugi img {
+  display: inline-block;
+  padding: 0px;
+  width: 5%; }
+.var_uslugi p {
+  font-family: Roboto, sans-serif;
+  font-size: 12pt;
+  width: 60%;
+  color: #fff;
+  font-weight: 200; }
+.var_uslugi checkbox {
+  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
