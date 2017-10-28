@@ -52,16 +52,15 @@ body {
   font-weight: bold; }
 
 .highlight {
-  text-transform: uppercase;
   color: #4caf50;
   text-decoration: underline; }
 
 .advantage {
   float: left;
-  margin-top: 64px; }
+  margin-top: 108px; }
 
 .advantage_img {
-  height: 220px; }
+  height: 160px; }
 
 .number {
   color: #4caf50;
@@ -72,7 +71,7 @@ body {
 .description {
   border-left: 8px #4caf50 solid;
   font-weight: 400;
-  font-size: 18px; }
+  font-size: 16px; }
 
 .cathegory {
   transform: rotate(90deg);
@@ -84,98 +83,6 @@ body {
 
 .form {
   width: 100%; }
-
-.clientsty {
-  margin-top: 110px;
-  margin-bottom: 110px; }
-
-.clients {
-  text-align: center; }
-
-.clientsimg {
-  padding-right: 30px; }
-  @media (max-width: 905px) {
-    .clientsimg {
-      padding-top: 10px; } }
-
-.clients-sl .slick-prev {
-  left: 0px;
-  cursor: pointer; }
-.clients-sl .slick-prev:before {
-  display: none;
-  content: url(images/prevbut.png);
-  background-color: #8e8e8e;
-  float: left;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-left: 15px; }
-  .clients-sl .slick-prev:before.active {
-    background-color: #c0301c; }
-  .clients-sl .slick-prev:before:hover {
-    background-color: #c0301c; }
-.clients-sl .slick-prev:before {
-  font-size: 20px;
-  line-height: 1;
-  opacity: .75;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-.clients-sl .slick-dots li button:before {
-  font-family: 'slick';
-  font-size: 6px;
-  line-height: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  color: black;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-.clients-sl .slick-next {
-  right: 29px;
-  cursor: pointer; }
-.clients-sl .slick-dots {
-  position: relative;
-  bottom: -10px; }
-.clients-sl .slick-next:before {
-  display: none;
-  content: url(images/nextbut.png);
-  background-color: #8e8e8e;
-  float: left;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-left: 15px; }
-  .clients-sl .slick-next:before.active {
-    background-color: #c0301c; }
-  .clients-sl .slick-next:before:hover {
-    background-color: #c0301c;
-    z-index: 111; }
-.clients-sl .slick-next:before {
-  font-size: 20px;
-  line-height: 1;
-  opacity: .75;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-.clients-zag {
-  padding-top: 3%; }
-  .clients-zag h2 {
-    font-family: 'Robotoslab-Regular';
-    font-size: 14pt;
-    text-align: center;
-    padding-bottom: 13px; }
-  .clients-zag p {
-    font-family: 'Robotoslab-Regular';
-    font-size: 10pt;
-    text-align: center;
-    padding-bottom: 10px;
-    font-style: italic; }
 
 .contacts {
   padding-top: 100px; }
