@@ -43,6 +43,7 @@ body {
   font-weight: bold; }
 
 .tagline_text {
+  font-family: Roboto, sans-serif;
   font-size: 48px;
   font-weight: 200; }
 
@@ -104,6 +105,12 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: #fff; }
+
+.customer-logos {
+  margin-top: 96px; }
+
+.footer {
+  margin-top: 200px; }
 
 .footer_info {
   color: #fff;
@@ -230,24 +237,26 @@ body {
     font-size: 18pt;
     font-weight: bold; }
 
-.var_uslugi h3 {
-  font-family: Roboto, sans-serif;
-  color: white;
-  font-size: 15pt;
-  font-weight: 400;
-  display: inline-block;
-  margin-top: 0; }
-.var_uslugi img {
-  display: inline-block;
-  padding: 0px;
-  width: 5%; }
-.var_uslugi p {
-  font-family: Roboto, sans-serif;
-  font-size: 12pt;
-  width: 60%;
-  color: #fff;
-  font-weight: 200; }
-.var_uslugi checkbox {
-  display: inline-block; }
+.var_uslugi {
+  width: 40%;
+  margin: 0 auto; }
+  .var_uslugi h3 {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 0; }
+  .var_uslugi img {
+    display: inline-block;
+    padding: 0px;
+    width: 48px; }
+  .var_uslugi p {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 200; }
+  .var_uslugi checkbox {
+    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

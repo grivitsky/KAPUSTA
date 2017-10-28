@@ -44,6 +44,7 @@ body
 
 .tagline
 {
+    
     color: $white;
     margin-top: 48px;
 }
@@ -69,6 +70,7 @@ body
 
 .tagline_text
 {
+    font-family: $fonts;
     font-size: 48px;
     font-weight: 200;
 }
@@ -160,6 +162,17 @@ body
     font-size: 24px;
     font-weight: bold;
     color: $white;
+}
+
+.customer-logos
+{
+    margin-top: 96px;
+}
+
+
+.footer
+{
+    margin-top: 200px;
 }
 
 .footer_info
@@ -299,10 +312,13 @@ body
 }
 
 .var_uslugi{
+    width: 40%;
+    margin: 0 auto;
+    
     h3{
         font-family: $fonts;
         color: white;
-        font-size: 15pt;
+        font-size: 18px;
         font-weight: 400;
         display: inline-block;
         margin-top: 0;
@@ -310,12 +326,11 @@ body
     img {
         display: inline-block;
         padding: 0px;
-        width:5%;
+        width: 48px;
     }
     p {
         font-family: $fonts;
-        font-size: 12pt;
-        width: 60%;
+        font-size: 16px;
         color: $white;
         font-weight: 200;
     }
